@@ -769,3 +769,35 @@ footer h6 {
   }
 }
 
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+body {
+  font-family: Roboto, Sans-serif;
+}
+h1 {
+  text-align: center;
+  font-family: 'Roboto Slab', Serif;
+  font-weight: 400;
+}
+form {
+  width: 350px;
+  margin: 0 auto;
+}
+* {
+  box-sizing: border-box;
+}
+input[type=text], button, textarea {
+  width: 100%;
+}
+label, input, button, textarea {
+  font-size: 1.2em;  
+}
+input, textarea {
+  margin-bottom: 10px;
+}
+button {
+  padding: 8px;
+}
+label[required]::after {
+  content: " *";
+  color: Red;
+}
